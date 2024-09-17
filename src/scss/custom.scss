@@ -3,6 +3,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import '~bootstrap/scss/bootstrap.scss';
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2b3035;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
 .App {
     font-family: "Roboto", sans-serif;
     h1, h2, .navbar-brand {
@@ -15,3 +38,145 @@
     height: auto;
 }
 
+.mainTextHeader {
+    color: #03f96e;
+    font-size: 3.5rem;
+
+    @include extraLarge {
+        font-size: 3rem;
+    }
+
+    @include large {
+        font-size: 2.5rem;
+    }
+
+    @include medium {
+        font-size: 2rem;
+    }
+}
+
+.mainHeader {
+    background: url(../assets/images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    position: relative;
+}
+
+.secondaryTextHeader {
+    color: white;
+    font-size: 2.6rem;
+
+    @include extraLarge {
+        font-size: 2.2rem;
+    }
+
+    @include large {
+        font-size: 1.7rem;
+    }
+
+    @include medium {
+        font-size: 1.5rem;
+    }
+}
+
+.viewMyProjectsBtn {
+    background-color: #03f96e;
+}
+
+.viewMyProjectsBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 4px 4px rgba(255, 255, 255, 1.2);
+    }
+
+    50% {
+        box-shadow: 0 4px 50px rgba(255, 255, 255, 1.2);
+    }
+
+    100% {
+        box-shadow: 0 4px 4px rgba(255, 255, 255, 1.2);
+    }
+}
+
+.custom-shadow {
+    animation: shadowPulse 2s infinite;
+
+    @include medium {
+        width: 60% !important;
+    }
+}
+
+#about {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: #03f96e;
+    }
+
+    li {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .mainAccordionSection {
+        min-width: 100%;
+        border: none;
+    }
+
+    .mainCardAccordion {
+        background-color: #2b3035;
+        color: #03f96e;
+        border: none;
+    }
+
+    .mainCardHeader {
+        background-color: transparent;
+        background-color: #2b3035;
+        border: none;
+    }
+
+    .modern-button {
+        background-color: #03f96e;
+        color: #2b3035;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #028a4e;
+        }
+
+        .progress-bar {
+            background-color: #03f96e;
+        }
+    }
+
+    .progressBarLanguages {
+        min-width: 600px;
+
+        @include medium {
+            min-width: 468px;
+        }
+
+        @include small {
+            min-width: 250px;
+        }
+    }
+}
