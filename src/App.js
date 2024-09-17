@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import AboutSection from './components/AboutSection';
+import ProjectsSection from './components/ProjectsSection';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Header />
       <AboutSection />
+      <ProjectsSection />
     </div>
   );
 }

@@ -28,7 +28,7 @@ const AboutSection = () => {
             <Accordion defaultActiveKey="">
                 <Card className='text-center mainCardAccordion'>
                     <Card.Header className='mainCardHeader'>
-                        <AboutSectionEvent eventKey="0">View My Information</AboutSectionEvent>
+                        <AboutSectionEvent eventKey="0">View Information</AboutSectionEvent>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body className='align-items-center'>
@@ -54,15 +54,11 @@ const AboutSection = () => {
                         <Card.Body className='align-items-center'>
                             <ul className='ohneDicoration'>
                             <li className='mb-4'>
-                                <strong>Javascript, Typescript</strong>
+                                <strong>Javascript, Typescript, React, Bootstrap, jQuery</strong>
                                 <ProgressBar now={90} label={`${90}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
-                                <strong>React</strong>
-                                <ProgressBar now={80} label={`${80}%`} className='progressBarLanguages'/>
-                            </li>
-                            <li className='mb-4'>
-                                <strong>Python, Django, DRF</strong>
+                                <strong>Python, Django, Jinja, DRF, Flask</strong>
                                 <ProgressBar now={80} label={`${80}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
@@ -78,7 +74,7 @@ const AboutSection = () => {
                                 <ProgressBar now={90} label={`${90}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
-                                <strong>SQL</strong>
+                                <strong>SQL, PostgresSQL, MySQL</strong>
                                 <ProgressBar now={75} label={`${75}%`} className='progressBarLanguages'/>
                             </li>
                             </ul>
