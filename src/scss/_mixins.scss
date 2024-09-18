@@ -5,19 +5,19 @@
 }
 
 @mixin medium {
-    @media (max-width: $medium) {
+    @media (min-width: $small) and (max-width: $medium) {
         @content;
     }
 }
 
 @mixin large {
-    @media (max-width: $large) {
+    @media (min-width: $medium) and (max-width: $large) {
         @content;
     }
 }
 
 @mixin extraLarge {
-    @media (max-width: $extraLarge) {
+    @media (min-width: $large) and (max-width: $extraLarge) {
         @content;
     }
 }

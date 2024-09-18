@@ -1,21 +1,24 @@
 import React from 'react';
-import { Button, Card} from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 
 const ProjectCard = (props) => {
   return (
-    <div className='col-md-6'>
-        <Card className='h-100 shadow'>
-            <Card.Img variant='top' src={props.projectImage}/>
-            <Card.Body className='p-5'>
-                <Card.Title className='fw-bold text-uppercase mb-4 fs-3'>
-                    {props.projectName}
-                </Card.Title>
-                <Card.Text>{props.projectDescription}</Card.Text>
-                <Button className='shadow text-capitalize'>View Live Project</Button>
-            </Card.Body>
-        </Card>
+    <div className='col-12 col-md-6 col-lg-4'>
+      <Card className='shadow card' onClick={() => window.open(props.liveProjectLink, '_blank')}>
+        <Card.Img variant='top' src={props.projectImage} className='cardImage' />
+        <Card.Body className='p-4'>
+          <Card.Title className='fw-bold text-uppercase mb-3 fs-4'>
+            {props.projectName}
+          </Card.Title>
+          <Card.Text>{props.projectDescription}</Card.Text>
+          <Button className='shadow text-capitalize view-project-btn' onClick={(e) => {
+            e.stopPropagation();
+            window.open(props.repoLink, '_blank');
+          }}>View Repository</Button>
+        </Card.Body>
+      </Card>
     </div>
-  )
-}
+  );
+};
 
 export default ProjectCard;

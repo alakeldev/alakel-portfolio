@@ -28,7 +28,7 @@ const AboutSection = () => {
             <Accordion defaultActiveKey="">
                 <Card className='text-center mainCardAccordion'>
                     <Card.Header className='mainCardHeader'>
-                        <AboutSectionEvent eventKey="0">View Information</AboutSectionEvent>
+                        <AboutSectionEvent eventKey="0">My Tech Journey</AboutSectionEvent>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body className='align-items-center'>
@@ -48,7 +48,7 @@ const AboutSection = () => {
                 </Card>
                 <Card className='text-center mainCardAccordion'>
                     <Card.Header className='mainCardHeader'>
-                        <AboutSectionEvent eventKey="1">View My Expertise</AboutSectionEvent>
+                        <AboutSectionEvent eventKey="1">My Coding Skills</AboutSectionEvent>
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body className='align-items-center'>
