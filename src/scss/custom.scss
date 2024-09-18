@@ -323,3 +323,47 @@ ul li {
         }
     }
 }
+
+
+#footer {
+    background-color: #2b3035;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+    .footer-logo {
+        width: 100px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-text {
+        color: #03f96e;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                border: 2px solid #03f96e;
+                border-radius: 10px;
+                padding: 5px;
+            }
+        }
+    }
+
+    .footer-rights {
+        color: #03f96e;
+        font-size: 0.9rem;
+    }
+}

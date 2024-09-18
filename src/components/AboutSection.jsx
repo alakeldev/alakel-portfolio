@@ -34,10 +34,10 @@ const AboutSection = () => {
                         <Card.Body className='align-items-center'>
                             <ul>
                             <li className='mb-4'>
-                                Hello, I'm Abdullah Alakel. I have been living in Germany since 2020. I am Syrian and have lived in several countries, which has enriched my cultural perspective and adaptability. I have been passionate about IT and continuously increasing my knowledge since my school days.
+                                Hello, I’m Abdullah Alakel. Currently residing in Germany, I have had the opportunity to live in several countries, enriching my cultural perspective and adaptability. My passion for IT has been unwavering since my school days, and I am dedicated to continuously expanding my knowledge and skills in this field.
                             </li>
                             <li className='mb-4'>
-                                I am a dedicated and skilled IT professional with a diverse educational background and extensive experience in the field of information technology. I hold a Diploma in Economy and Commerce with a major in Banking System from Damascus University, and a Bachelor’s degree in Information Technology from Syrian Virtual University.
+                                I am a dedicated and skilled IT professional with a diverse educational background and extensive experience in information technology. I hold a Diploma in Economy and Commerce with a major in Banking Systems from Damascus University, and a Bachelor’s degree in Information Technology from Syrian Virtual University.
                             </li>
                             <li className='mb-4'>
                                 With over five years of hands-on experience as an IT technician in Abu Dhabi, I have developed a strong foundation in technical support, system maintenance, and troubleshooting. My expertise is further enhanced by a Diploma in Full Software Development from Code Institute, equipping me with comprehensive skills in software development and programming. I am passionate about leveraging my technical knowledge and problem-solving abilities to contribute to innovative projects and drive organizational success.

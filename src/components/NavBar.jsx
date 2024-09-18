@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <Navbar expand='lg' className='bg-body-tertiary w-100 fixed-top z-1' data-bs-theme='dark'>
       <Container>
-        <Navbar.Brand href='#' className='fs-4'><img src={Logo} alt="website logo" className='logo' /></Navbar.Brand>
+        <Navbar.Brand href='/' className='fs-4'><img src={Logo} alt="website logo" className='logo' /></Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav'/>
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto w-100 d-flex justify-content-end'>
