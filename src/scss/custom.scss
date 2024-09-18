@@ -58,7 +58,7 @@ ul li {
 .mainHeader {
     background: url(../assets/images/header.jpg) no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -112,6 +112,11 @@ ul li {
     @include medium {
         width: 60% !important;
     }
+}
+
+.nav-link.active {
+    color: #03f96e !important;
+    font-weight: bold;
 }
 
 #about {
@@ -332,7 +337,7 @@ ul li {
     text-align: center;
 
     .footer-logo {
-        width: 100px;
+        width: 130px;
         height: auto;
         margin-bottom: 20px;
     }
@@ -365,5 +370,62 @@ ul li {
     .footer-rights {
         color: #03f96e;
         font-size: 0.9rem;
+    }
+}
+
+/* Contact Modal Styles */
+.modal-content {
+    background-color: #2b3035;
+    color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.modal-title {
+    color: #03f96e;
+}
+
+.form-control {
+    background-color: #3a3f44;
+    color: #fff;
+    border: 1px solid #03f96e;
+
+    &::placeholder {
+        color: #03f96e;
+        opacity: 1;
+    }
+}
+
+.form-control:focus {
+    background-color: #3a3f44;
+    color: #fff;
+    border-color: #03f96e;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #03f96e;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #028a4e;
+}
+
+.modal-header .btn-close {
+    color: #03f96e;
+    opacity: 1;
+}
+
+.toastify-container {
+    .Toastify__toast--success {
+        background-color: #03f96e;
+    }
+
+    .Toastify__toast--error {
+        background-color: #ff4d4d;
     }
 }
