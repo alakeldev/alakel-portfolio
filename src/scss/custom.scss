@@ -38,6 +38,18 @@ ul li {
     height: auto;
 }
 
+.cent {
+    @include large {
+            text-align: center;
+    }
+    @include medium {
+        text-align: center;
+    }
+    @include small {
+        text-align: center;
+    }
+}
+
 .mainTextHeader {
     color: #03f96e;
     font-size: 3.5rem;
@@ -51,6 +63,9 @@ ul li {
     }
 
     @include medium {
+        font-size: 2rem;
+    }
+    @include small {
         font-size: 2rem;
     }
 }
@@ -79,6 +94,9 @@ ul li {
     }
 
     @include medium {
+        font-size: 1.5rem;
+    }
+    @include small {
         font-size: 1.5rem;
     }
 }

@@ -8,7 +8,6 @@ const NavBar = () => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    // Highlight the "Home" link when the site loads
     setActiveSection('header');
   }, []);
 
@@ -29,10 +28,10 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto w-100 d-flex justify-content-end'>
-              <Nav.Link href='#header' className={activeSection === 'header' ? 'active' : ''} onClick={() => handleNavClick('header')}>Home</Nav.Link>
-              <Nav.Link href='#about' className={activeSection === 'about' ? 'active' : ''} onClick={() => handleNavClick('about')}>About</Nav.Link>
-              <Nav.Link href='#projects' className={activeSection === 'projects' ? 'active' : ''} onClick={() => handleNavClick('projects')}>Projects</Nav.Link>
-              <Nav.Link href='#contact' className={activeSection === 'contact' ? 'active' : ''} onClick={() => handleNavClick('contact')}>Contact</Nav.Link>
+              <Nav.Link href='#header' className={`cent ${activeSection === 'header' ? 'active' : ''}`} onClick={() => handleNavClick('header')}>Home</Nav.Link>
+              <Nav.Link href='#about' className={`cent ${activeSection === 'about' ? 'active' : ''}`} onClick={() => handleNavClick('about')}>About</Nav.Link>
+              <Nav.Link href='#projects' className={`cent ${activeSection === 'projects' ? 'active' : ''}`} onClick={() => handleNavClick('projects')}>Projects</Nav.Link>
+              <Nav.Link href='#contact' className={`cent ${activeSection === 'contact' ? 'active' : ''}`} onClick={() => handleNavClick('contact')}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

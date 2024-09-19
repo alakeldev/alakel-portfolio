@@ -38,7 +38,7 @@ const Footer = () => {
             </Row>
             <Row>
                 <Col>
-                    <small className="footer-rights">All Rights Reserved © {year}</small>
+                    <small className="footer-rights">All Rights Reserved ©{year}</small>
                 </Col>
             </Row>
         </Container>
