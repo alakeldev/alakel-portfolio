@@ -87,7 +87,7 @@ const AboutSection = () => {
                     </Card.Header>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body className='align-items-center'>
-                            <img src={cvImage} alt='My Resume'></img>
+                            <img className= 'imageResume' src={cvImage} alt='My Resume'></img>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
