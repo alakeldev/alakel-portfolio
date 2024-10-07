@@ -1,9 +1,9 @@
 import React from 'react';
-import ViewMyResumeBtn from './ViewMyResumeBtn';
 import Accordion from 'react-bootstrap/Accordion';
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import cvImage from '../assets/images/cv.png';
 
 function AboutSectionEvent({ children, eventKey }) {
   const decoratedOnClick = useAccordionButton(eventKey);
@@ -78,7 +78,16 @@ const AboutSection = () => {
                                 <ProgressBar now={75} label={`${75}%`} className='progressBarLanguages'/>
                             </li>
                             </ul>
-                            <ViewMyResumeBtn />
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card className='text-center mainCardAccordion'>
+                    <Card.Header className='mainCardHeader'>
+                        <AboutSectionEvent eventKey="2">View My Resume</AboutSectionEvent>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="2">
+                        <Card.Body className='align-items-center'>
+                            <img src={cvImage} alt='My Resume'></img>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>

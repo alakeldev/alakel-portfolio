@@ -8,7 +8,6 @@ import TryHackMeIcon from "../assets/images/tryhackme.png";
 import ExercismIcon from "../assets/images/exercism.png";
 
 const Footer = () => {
-    const year = new Date().getFullYear();
 
     return (
         <Container id="footer" className="py-5 mt-4 text-light text-center">
@@ -34,11 +33,6 @@ const Footer = () => {
                     <a href="https://exercism.org/profiles/AlakelDev01" rel="noopener noreferrer" target="_blank" aria-label="Exercism - Opens in a new tab">
                         <img src={ExercismIcon} alt="Exercism" className="icon"/>
                     </a>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <small className="footer-rights">All Rights Reserved ©{year}</small>
                 </Col>
             </Row>
         </Container>

@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     <div className='col-12 col-md-6 col-lg-4'>
       <Card className='shadow card' onClick={() => window.open(props.liveProjectLink, '_blank')}>
         <Card.Img variant='top' src={props.projectImage} className='cardImage' />
-        <Card.Body className='p-4'>
+        <Card.Body className='p-4 card-body'>
           <Card.Title className='fw-bold text-uppercase mb-3 fs-4'>
             {props.projectName}
           </Card.Title>
