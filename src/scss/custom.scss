@@ -204,11 +204,23 @@ ul li {
     }
 
     .imageResume {
-        width: 85%;
+        width: 100%;
     }
 }
 
 #projects {
+    @include small {
+        background-image: none;
+        background-color: #0e1f2cf2;
+    }
+    @include medium {
+        background-image: none;
+        background-color: #0e1f2cf2;
+    }
+    @include large {
+        background-image: none;
+        background-color: #0e1f2cf2;
+    }
     background: url('../assets/images/myprojects.jpg') no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
@@ -253,7 +265,6 @@ ul li {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        /* Ensures space is distributed evenly */
 
         &:hover {
             transform: scale(1.05);
@@ -289,7 +300,6 @@ ul li {
         font-size: 14px;
         background-color: #000000 !important;
         margin-top: auto;
-        /* Pushes the button to the bottom */
 
         @include small {
             padding: 8px 16px;
