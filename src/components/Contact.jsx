@@ -1,31 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
+import emailjs from 'emailjs-com';
 
 const Contact = ({ show, handleClose }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const form = useRef();
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Validate name (only letters)
     const nameRegex = /^[A-Za-z]+$/;
     if (!nameRegex.test(name)) {
       toast.error('Please enter a valid name (letters only).');
       return;
     }
 
-    // Validate message (not empty)
     if (message.trim() === '') {
       toast.error('Message cannot be empty.');
       return;
     }
 
-    // Handle form submission logic here
-    toast.success('Message sent successfully!');
-    handleClose();
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+    )
+    .then((result) => {
+      toast.success('Message sent successfully!');
+      handleClose();
+    }, (error) => {
+      toast.error('Failed to send message. Please try again later.');
+    });
   };
 
   return (
@@ -35,7 +44,7 @@ const Contact = ({ show, handleClose }) => {
           <Modal.Title>Contact Me</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={handleSubmit}>
+          <Form ref={form} onSubmit={handleSubmit}>
             <Form.Group controlId="formName">
               <Form.Label>Name</Form.Label>
               <Form.Control
