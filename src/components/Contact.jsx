@@ -50,6 +50,7 @@ const Contact = ({ show, handleClose }) => {
               <Form.Control
                 type="text"
                 placeholder="Enter your name"
+                name="from_name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
@@ -60,6 +61,7 @@ const Contact = ({ show, handleClose }) => {
               <Form.Control
                 type="email"
                 placeholder="Enter your email"
+                name="from_email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -71,6 +73,7 @@ const Contact = ({ show, handleClose }) => {
                 as="textarea"
                 rows={3}
                 placeholder="Enter your message"
+                name="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
