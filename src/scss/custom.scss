@@ -185,10 +185,10 @@ ul li {
         &:hover {
             background-color: #028a4e;
         }
+    }
 
-        .progress-bar {
-            background-color: #03f96e;
-        }
+    .progress-bar {
+        background-color: #03f96e;
     }
 
     .progressBarLanguages {
@@ -209,6 +209,22 @@ ul li {
 
     .cvBtn:hover {
         color: #03f96e;
+    }
+
+    .cvBtn {
+        @include small {
+                font-size: 10px;
+        }
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn {
+            margin-bottom: 10px;
+        }
     }
 }
 

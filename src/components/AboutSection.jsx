@@ -87,9 +87,11 @@ const AboutSection = () => {
                     </Card.Header>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body className='align-items-center'>
-                            <img className= 'imageResume' src={cvImage} alt='My Resume'></img>
-                            <a href="/Lebenslauf.pdf" download="Lebenslauf.pdf" className='btn btn-secondary mt-5 cvBtn'>Download Resume (English Version)</a>
-                            <a href="/Lebenslauf.pdf" download="Lebenslauf.pdf" className='btn btn-secondary mt-5 cvBtn'>Download Resume (Deutsch Version)</a>
+                            <img className='imageResume' src={cvImage} alt='My Resume'></img>
+                            <div className="btn-container">
+                                <a href="/Alakel-Resume.pdf" download="Alakel-Resume.pdf" className='btn btn-secondary mt-5 cvBtn'>Download Resume (English Version)</a>
+                                <a href="/Alakel-Lebenslauf.pdf" download="Alakel-Lebenslauf.pdf" className='btn btn-secondary mt-5 cvBtn'>Download Resume (German Version)</a>
+                            </div>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
