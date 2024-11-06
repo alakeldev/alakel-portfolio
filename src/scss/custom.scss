@@ -302,7 +302,6 @@ ul li {
     .card-body {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         height: 100%;
     }
 
@@ -401,6 +400,7 @@ ul li {
 
     .live-btn {
         animation: colorChange 2s infinite;
+        margin-bottom: 5px;
     }
     .live-btn:hover {
         background-color: #0f1f2d !important;
