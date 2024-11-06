@@ -319,7 +319,7 @@ ul li {
     .view-project-btn {
         padding: 10px 20px;
         font-size: 14px;
-        background-color: #000000 !important;
+        background-color: #2b3035 !important;
         margin-top: auto;
 
         @include small {
@@ -401,6 +401,9 @@ ul li {
 
     .live-btn {
         animation: colorChange 2s infinite;
+    }
+    .live-btn:hover {
+        background-color: #0f1f2d !important;
     }
 
     @keyframes colorChange {
