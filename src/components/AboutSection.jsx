@@ -62,12 +62,8 @@ const AboutSection = () => {
                                 <ProgressBar now={80} label={`${80}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
-                                <strong>C++</strong>
-                                <ProgressBar now={55} label={`${55}%`} className='progressBarLanguages'/>
-                            </li>
-                            <li className='mb-4'>
                                 <strong>C#</strong>
-                                <ProgressBar now={40} label={`${40}%`} className='progressBarLanguages'/>
+                                <ProgressBar now={70} label={`${70}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
                                 <strong>HTML5, CSS3, SASS</strong>
