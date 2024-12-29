@@ -50,7 +50,7 @@ const ProjectsItems = [
         id: 6,
         projectImg: Img6,
         projectTitle: 'Hi Translate Me',
-        projectDescription: 'Built with Next.js and TypeScript, Hi Translate Me is a voice translation tool that translates spoken text into another language and plays back the translation. This project integrates speech recognition and translation APIs.',
+        projectDescription: 'Hi Translate Me is a voice translation tool that translates spoken text into another language and plays back the translation. This project integrates speech recognition and translation APIs, Built with Next.js and TypeScript.',
         liveProjectLink: 'https://hi-translate-me-0754d2a11817.herokuapp.com/',
         repoLink: 'https://github.com/alakeldev/hi-translate-me-app'
     },
