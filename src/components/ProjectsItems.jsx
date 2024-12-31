@@ -4,6 +4,7 @@ import Img3 from '../assets/images/pimg3.png';
 import Img4 from '../assets/images/pimg4.png';
 import Img5 from '../assets/images/pimg5.png';
 import Img6 from '../assets/images/pimg6.png';
+import Img7 from '../assets/images/pimg7.png';
 
 const ProjectsItems = [
     {
@@ -53,6 +54,14 @@ const ProjectsItems = [
         projectDescription: 'Hi Translate Me is a voice translation tool that translates spoken text into another language and plays back the translation. This project integrates speech recognition and translation APIs, Built with Next.js and TypeScript.',
         liveProjectLink: 'https://hi-translate-me-0754d2a11817.herokuapp.com/',
         repoLink: 'https://github.com/alakeldev/hi-translate-me-app'
+    },
+    {
+        id: 7,
+        projectImg: Img7,
+        projectTitle: 'Convert Image 2 Pdf',
+        projectDescription: 'Convert Image 2 PDF is a sleek online tool built with Next.js, React components, Tailwind CSS, Preline, and Aceternity UI. It allows users to effortlessly convert any image into a PDF document with a modern and intuitive interface.',
+        liveProjectLink: 'https://convert-img2pdf-df56eaef8e32.herokuapp.com/',
+        repoLink: 'https://github.com/alakeldev/file-converter-app'
     },
 ]
 
