@@ -18,10 +18,10 @@ const ProjectsItems = [
     {
         id: 2,
         projectImg: Img2,
-        projectTitle: 'To-Do List',
+        projectTitle: 'Hi Task Me',
         projectDescription: 'This application assists users in managing their tasks and tracking daily progress on various projects. It is developed using Vanilla JavaScript.',
-        liveProjectLink: 'https://alakeldev.github.io/to-do-list-app/',
-        repoLink: 'https://github.com/alakeldev/to-do-list-app'
+        liveProjectLink: 'https://alakeldev.github.io/hi-task-me-app/',
+        repoLink: 'https://github.com/alakeldev/hi-task-me-app'
     },
     {
         id: 3,
