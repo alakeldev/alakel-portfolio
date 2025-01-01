@@ -5,6 +5,7 @@ import Img4 from '../assets/images/pimg4.png';
 import Img5 from '../assets/images/pimg5.png';
 import Img6 from '../assets/images/pimg6.png';
 import Img7 from '../assets/images/pimg7.png';
+import Img8 from '../assets/images/pimg8.png';
 
 const ProjectsItems = [
     {
@@ -62,6 +63,14 @@ const ProjectsItems = [
         projectDescription: 'Convert Image 2 PDF is a sleek online tool built with Next.js, React components, Tailwind CSS, Preline, and Aceternity UI. It allows users to effortlessly convert any image into a PDF document with a modern and intuitive interface.',
         liveProjectLink: 'https://convert-img2pdf-df56eaef8e32.herokuapp.com/',
         repoLink: 'https://github.com/alakeldev/file-converter-app'
+    },
+    {
+        id: 8,
+        projectImg: Img8,
+        projectTitle: 'Hi Download Me',
+        projectDescription: 'It is a file downloader application built with HTML, CSS, and JavaScript. It utilizes vanilla JavaScript and DOM manipulation to provide a seamless file downloading experience. The application fetches binary file data using the Fetch and handles it with Blob objects.',
+        liveProjectLink: 'https://alakeldev.github.io/hi-download-me-app/',
+        repoLink: 'https://github.com/alakeldev/hi-download-me-app'
     },
 ]
 
