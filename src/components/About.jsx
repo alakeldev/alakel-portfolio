@@ -18,7 +18,7 @@ function AboutSectionEvent({ children, eventKey }) {
   );
 }
 
-const AboutSection = () => {
+const About = () => {
   return (
     <div className='text-light py-5' id='about'>
       <div className='container'>
@@ -53,7 +53,7 @@ const AboutSection = () => {
                         <Card.Body className='align-items-center'>
                             <ul className='ohneDicoration'>
                             <li className='mb-4'>
-                                <strong>Javascript, Typescript, React, Bootstrap, jQuery</strong>
+                                <strong>Javascript, Typescript, React, React Native, Nextjs, Bootstrap, jQuery</strong>
                                 <ProgressBar now={90} label={`${90}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
@@ -62,10 +62,10 @@ const AboutSection = () => {
                             </li>
                             <li className='mb-4'>
                                 <strong>C#</strong>
-                                <ProgressBar now={70} label={`${70}%`} className='progressBarLanguages'/>
+                                <ProgressBar now={40} label={`${40}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
-                                <strong>HTML5, CSS3, SASS</strong>
+                                <strong>HTML5, CSS3, SASS, TailwindCSS</strong>
                                 <ProgressBar now={90} label={`${90}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
@@ -83,4 +83,4 @@ const AboutSection = () => {
     );
 }
 
-export default AboutSection;
+export default About;

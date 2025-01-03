@@ -1,9 +1,8 @@
 import React from 'react';
-import ProjectsItems from './ProjectsItems';
+import ProjectsItems from '../data/ProjectsItems';
 import ProjectCard from './ProjectCard';
 
-
-const ProjectsSection = () => {
+const Projects = () => {
   return (
     <div className='py-5' id='projects'>
       <div className='container'>
@@ -25,4 +24,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default Projects;

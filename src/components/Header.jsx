@@ -1,6 +1,6 @@
 import React from 'react';
-import ViewProjectsBtn from './ViewProjectsBtn';
 import MyAvatar from '../assets/images/myavatar.png';
+import { Button } from 'react-bootstrap';
 
 const Header = () => {
   return (
@@ -14,7 +14,9 @@ const Header = () => {
                     <h1 className='text-center lh-1 mb-5 mainTextHeader'>
                         IT Specialist & Full Stack Developer
                     </h1>
-                    <ViewProjectsBtn />
+                    <a href='#projects'>
+                        <Button className='btn viewMyProjectsBtn text-black'>View My Projects</Button>
+                    </a>
                 </div>
                 <div className='col-md-6 d-flex justify-content-center justify-content-md-end'>
                     <img className='img-fluid w-75 rounded-circle custom-shadow my-5' src={MyAvatar} alt='my avatar'></img>
