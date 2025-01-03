@@ -12,7 +12,7 @@ const Header = () => {
                         ABDULLAH ALAKEL
                     </h3>
                     <h1 className='text-center lh-1 mb-5 mainTextHeader'>
-                        IT Specialist & Full Stack Developer
+                        Full Stack Software Developer & IT Specialist
                     </h1>
                     <a href='#projects'>
                         <Button className='btn viewMyProjectsBtn text-black'>View My Projects</Button>
