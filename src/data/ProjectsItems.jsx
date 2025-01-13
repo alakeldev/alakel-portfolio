@@ -6,6 +6,7 @@ import Img5 from '../assets/images/pimg5.png';
 import Img6 from '../assets/images/pimg6.png';
 import Img7 from '../assets/images/pimg7.png';
 import Img8 from '../assets/images/pimg8.png';
+import Img9 from '../assets/images/pimg9.png';
 
 const ProjectsItems = [
     {
@@ -71,6 +72,14 @@ const ProjectsItems = [
         projectDescription: 'It is a file downloader application built with HTML, CSS, and JavaScript. It utilizes vanilla JavaScript and DOM manipulation to provide a seamless file downloading experience. The application fetches binary file data using the Fetch and handles it with Blob objects.',
         liveProjectLink: 'https://alakeldev.github.io/hi-download-me-app/',
         repoLink: 'https://github.com/alakeldev/hi-download-me-app'
+    },
+    {
+        id: 9,
+        projectImg: Img9,
+        projectTitle: 'Hi Med Assist Mobile App',
+        projectDescription: 'It is a medication management app built with React Native and Expo. It offers medication storage and precise reminders, powered by Firebase, a flexible NoSQL database. Stay organized with Hi-Med-Assist-App, your reliable health companion.',
+        liveProjectLink: '',
+        repoLink: 'https://github.com/alakeldev/hi-med-assist-app'
     },
 ]
 
