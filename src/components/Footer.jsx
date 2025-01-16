@@ -30,7 +30,7 @@ const Footer = () => {
                     <a href="https://tryhackme.com/r/p/alakeldev01" rel="noopener noreferrer" target="_blank" aria-label="TryHackMe - Opens in a new tab">
                         <img src={TryHackMeIcon} alt="TryHackMe" className="icon"/>
                     </a>
-                    <a href="https://exercism.org/profiles/AlakelDev01" rel="noopener noreferrer" target="_blank" aria-label="Exercism - Opens in a new tab">
+                    <a href="https://exercism.org/profiles/alakeldev01" rel="noopener noreferrer" target="_blank" aria-label="Exercism - Opens in a new tab">
                         <img src={ExercismIcon} alt="Exercism" className="icon"/>
                     </a>
                 </Col>
