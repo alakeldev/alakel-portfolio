@@ -24,7 +24,7 @@ const Footer = () => {
                     <a href="https://github.com/alakeldev" rel="noopener noreferrer" target="_blank" aria-label="GitHub - Opens in a new tab">
                         <img src={GitHubIcon} alt="GitHub" className="icon"/>
                     </a>
-                    <a href="https://x.com/alakel993" rel="noopener noreferrer" target="_blank" aria-label="X - Opens in a new tab">
+                    <a href="https://x.com/alakeldev" rel="noopener noreferrer" target="_blank" aria-label="X - Opens in a new tab">
                         <img src={XIcon} alt="X" className="icon"/>
                     </a>
                     <a href="https://tryhackme.com/r/p/alakeldev01" rel="noopener noreferrer" target="_blank" aria-label="TryHackMe - Opens in a new tab">
