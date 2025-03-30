@@ -80,7 +80,7 @@ const Contact = ({ show, handleClose }) => {
               />
             </Form.Group>
             <Button variant="primary" type="submit" className="mt-3">
-              Submit
+              SEND
             </Button>
           </Form>
         </Modal.Body>
