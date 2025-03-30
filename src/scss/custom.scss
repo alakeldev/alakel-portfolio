@@ -495,12 +495,20 @@ ul li {
 .btn-primary {
     background-color: #03f96e;
     border: none;
-    color: #2b3035;
-    font-weight: bold;
+
+}
+
+form .btn-primary { 
+    color: #2b3035 !important;
+    font-weight: bold !important;
+}
+
+form .btn-primary:hover {
+    background-color: #028a4e;
 }
 
 .btn-primary:hover {
-    background-color: #028a4e;
+    color: #fff !important;
 }
 
 .modal-header .btn-close {
