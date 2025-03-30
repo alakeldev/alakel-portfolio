@@ -40,7 +40,7 @@ ul li {
 
 .cent {
     @include large {
-            text-align: center;
+        text-align: center;
     }
     @include medium {
         text-align: center;
