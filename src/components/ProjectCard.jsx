@@ -13,8 +13,6 @@ const ProjectCard = (project) => {
           </Card.Title>
           <Card.Text>{projectDescription}</Card.Text>
         </Card.Body>
-        {liveProjectLink ? ( <Button className="shadow text-capitalize view-project-btn live-btn" onClick={() => window.open(liveProjectLink, '_blank')}>View Live Project</Button> ) : 
-        ( <Button className="shadow text-capitalize view-project-btn live-btn" style={{display:"none"}} >View Live Project</Button> )}
         <Button className='shadow text-capitalize view-project-btn' onClick={() => window.open(repoLink, '_blank')}>View Repository</Button>
       </Card>
     </div>
