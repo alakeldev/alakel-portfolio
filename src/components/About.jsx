@@ -61,15 +61,15 @@ const About = () => {
                             </li>
                             <li className='mb-4'>
                                 <strong>Typescript</strong>
-                                <ProgressBar now={75} label={`${75}%`} className='progressBarLanguages'/>
+                                <ProgressBar now={75} label={`${80}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
                                 <strong>Python</strong>
-                                <ProgressBar now={80} label={`${80}%`} className='progressBarLanguages'/>
+                                <ProgressBar now={80} label={`${75}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
                                 <strong>PHP</strong>
-                                <ProgressBar now={75} label={`${75}%`} className='progressBarLanguages'/>
+                                <ProgressBar now={75} label={`${60}%`} className='progressBarLanguages'/>
                             </li>
                             <li className='mb-4'>
                                 <strong>C#</strong>
@@ -87,7 +87,6 @@ const About = () => {
                                 <strong>CSS3</strong>
                                 <ProgressBar now={85} label={`${85}%`} className='progressBarLanguages'/>
                             </li>
-                            
                             </ul>
                         </Card.Body>
                     </Accordion.Collapse>
