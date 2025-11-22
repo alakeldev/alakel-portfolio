@@ -396,23 +396,6 @@ ul li {
     .view-project-btn:hover {
         background-color: #075e2d !important;
     }
-
-    .live-btn {
-        animation: colorChange 2s infinite;
-        margin-bottom: 5px;
-    }
-    .live-btn:hover {
-        background-color: #0f1f2d !important;
-    }
-
-    @keyframes colorChange {
-        0%, 100% {
-            color: white;
-        }
-        50% {
-            color: #075e2d;
-        }
-    }
 }
 
 
